@@ -15,20 +15,6 @@ public class Cliente {
         cestaDeCompra.push(producto);
     }
 
-    public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Cliente\n");
-        sb.append("===================================\n");
-        sb.append("* Nombre: ").append(nombre).append("\n");
-        sb.append("* Total de productos: ").append(cestaDeCompra.size()).append("\n");
-        sb.append("* Lista de artículos en la cesta:\n");
-        for (Producto producto : cestaDeCompra) {
-            sb.append(producto.getNombre()).append("\n");
-        }
-        sb.append("===================================\n");
-        return sb.toString();
-    }
-
     public String getNombre() {
         return nombre;
     }
@@ -45,5 +31,18 @@ public class Cliente {
         this.cestaDeCompra = cestaDeCompra;
     }
 
-    
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Cliente\n");
+        sb.append("===================================\n");
+        sb.append("* Nombre: ").append(nombre).append("\n");
+        sb.append("* Total de productos: ").append(cestaDeCompra.size()).append("\n");
+        sb.append("* Lista de artículos en la cesta:\n");
+        for (Producto producto : cestaDeCompra) {
+            sb.append(producto.getNombre()).append("\n");
+        }
+        sb.append("===================================\n");
+        return sb.toString();
+    }
+
 }
