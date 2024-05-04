@@ -33,7 +33,6 @@ public class Cliente {
 
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Cliente\n");
         sb.append("===================================\n");
         sb.append("* Nombre: ").append(nombre).append("\n");
         sb.append("* Total de productos: ").append(cestaDeCompra.size()).append("\n");

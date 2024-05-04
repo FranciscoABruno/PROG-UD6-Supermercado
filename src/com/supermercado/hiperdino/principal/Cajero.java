@@ -38,7 +38,6 @@ public class Cajero {
 
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Cajero\n");
         sb.append("===================================\n");
         sb.append("* Número de caja: ").append(numero).append("\n");
         sb.append("* Total de clientes: ").append(colaClientes.size()).append("\n");
@@ -48,5 +47,10 @@ public class Cajero {
         }
         sb.append("===================================\n");
         return sb.toString();
+    }
+
+    public int getTotalClientes() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getTotalClientes'");
     }
 }
