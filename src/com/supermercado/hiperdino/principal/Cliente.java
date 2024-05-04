@@ -11,4 +11,7 @@ public class Cliente {
         this.cestaDeCompra = new Stack<>();
     }
 
+    public void agregarProducto(Producto producto) {
+        cestaDeCompra.push(producto);
+    }
 }
