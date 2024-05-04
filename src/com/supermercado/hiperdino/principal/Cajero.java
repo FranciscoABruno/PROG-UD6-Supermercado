@@ -12,4 +12,8 @@ public class Cajero {
         this.colaClientes = new LinkedList<>();
     }
 
+    public void agregarCliente(Cliente cliente) {
+        colaDeClientes.add(cliente);
+    }
+
 }
