@@ -28,4 +28,22 @@ public class Cliente {
         sb.append("===================================\n");
         return sb.toString();
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Stack<Producto> getCestaDeCompra() {
+        return cestaDeCompra;
+    }
+
+    public void setCestaDeCompra(Stack<Producto> cestaDeCompra) {
+        this.cestaDeCompra = cestaDeCompra;
+    }
+
+    
 }
