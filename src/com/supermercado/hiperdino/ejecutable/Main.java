@@ -74,7 +74,7 @@ public class Main {
             }
         } while (opcion != 6);
     }
-    
+
     private static void mostrarMenu() {
         System.out.println("\n===== Supermercado Hiperdino =====");
         System.out.println("1. Abrir caja:");
