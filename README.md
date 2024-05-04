@@ -31,4 +31,4 @@ para esto se utiliza el siguiente menú:
 
 ![image](https://github.com/FranciscoABruno/PROG-UD6-Supermercado/assets/159430483/568548bc-b09a-487f-8178-52da7ade1de7)
 
-pd: una disculpa por entregar la practica un día después
+pd: una disculpa por entregar la practica un día después :)
