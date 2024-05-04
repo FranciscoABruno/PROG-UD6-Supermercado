@@ -13,7 +13,7 @@ public class Cajero {
     }
 
     public void agregarCliente(Cliente cliente) {
-        colaDeClientes.add(cliente);
+        colaClientes.add(cliente);
     }
 
 }
