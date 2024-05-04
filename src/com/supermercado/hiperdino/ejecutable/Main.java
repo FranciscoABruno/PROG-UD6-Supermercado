@@ -66,7 +66,7 @@ public class Main {
                     }
                     break;
                 case 6:
-                    System.out.println("Saliendo");
+                    System.out.println("Saliendo del programa");
                     break;
                 default:
                     System.out.println("Opción invalida.");
